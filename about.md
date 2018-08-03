@@ -8,7 +8,7 @@ chart: true
 ---
 <figure>
   <img src="{{ site.url }}/images/DR.png" alt="Hossain Mohammad Faysal">
-  <figcaption>Hossain Mohammad Faysal</figcaption>
+  <figcaption>Dermot Reynolds</figcaption>
 </figure>
 
 {% assign total_words = 0 %}
