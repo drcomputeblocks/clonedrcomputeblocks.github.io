@@ -1,9 +1,9 @@
 title:            Notepad
-description:      "Blogging is fun"
+description:      "Cloud Architecture Blog"
 logo:             DR.png
 disqus_shortname: hmfaysal
 share:            true
-dropcap:			true
+dropcap:	true
 # Change url to your domain. Leave localhost server or blank when working locally.
 # or use the hint from http://jekyllrb.com/docs/github-pages/ to keep this the same 
 # whether working locally or remotely. Start Jekyll with: jekyll serve --baseurl ''
@@ -11,9 +11,9 @@ url:        	  https://drcomputeblocks.github.io
 
 # Owner/author information
 owner:
-  name:           Hossain Mohd Faysal
+  name:           Dermot Reynolds
   avatar:         hmfaysal.jpg
-  email:          hmfaysal@alum.mit.edu
+  email:          dermot@singlepane.com
   # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
   description:    Awesome Dude, Awesome Life
   # Social networking links used in footer. Update and remove as you like.
