@@ -7,11 +7,15 @@ featured: true
 
 ---
 
-The intention of this article is to walk you through creating a very simple application using Visual Studio and deploying it to GitHub.
+The purpose of this article is to get a simple application deployed to GitHub.
 
-This GitHub repository will be used for setting up our CI/CD pipline later.
+We will use Visual Studio to create a blank application which we will add a simple HTML page to and then deploy it to GitHub.
 
-It is also to highlight how easy it is to create small applications using Visual Studio.
+It may seem a bit trivial, but this is the same mechanism that you would use for creating the majority of the applications which can be hosted on Azure.
+
+We will reuse this GitHub repository later when setting up our CI/CD pipline.
+
+It should highlight how easy it is to create small applications using Visual Studio.
 
 In order to work with Azure you will need the software and accounts below.  I will be using these extensively.
 
