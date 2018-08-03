@@ -2,6 +2,8 @@
 layout: post
 title: "Azure DevOps: #0 Deployment Slots With Powershell"
 date: 2017-02-20
+featured: true
+
 ---
 You can set up Continuous Deployment by connecting an App Service directly to a source code repository.
 
