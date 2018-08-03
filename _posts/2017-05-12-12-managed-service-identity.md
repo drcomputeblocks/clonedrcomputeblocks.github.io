@@ -2,6 +2,8 @@
 layout: post
 title: "Azure DevOps: #12 Application Identity / Managed Service Identity"
 date: 2017-05-18
+category: security
+
 ---
 
 Taken from documentation: *The feature provides Azure services with an automatically managed identity in Azure AD.*

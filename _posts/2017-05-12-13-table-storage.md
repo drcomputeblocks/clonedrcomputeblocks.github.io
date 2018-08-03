@@ -2,6 +2,8 @@
 layout: post
 title: "Azure DevOps: #13 Table Storage"
 date: 2017-05-22
+category: Azure Storage
+
 ---
 
 Table storage is a slightly misleading name.  It is actually a key value store where the "Key" is made up of the PartitionKey and RowKey and the "Value" is the associated attributes.

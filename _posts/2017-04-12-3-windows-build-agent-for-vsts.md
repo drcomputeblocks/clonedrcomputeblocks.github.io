@@ -2,6 +2,8 @@
 layout: post
 title: "Azure DevOps: #3 Visual Studio Team Services Build Agent"
 date: 2017-04-13
+category: CI/CD
+
 ---
 
 When you sign up for Visual Studio Team Services you are allocated a given amount of build/release hours for free.  After this you will have to either buy more or create your own Build Agent.
@@ -22,25 +24,26 @@ When you sign up for Visual Studio Team Services you are allocated a given amoun
 ![](/images/New-Windows-Build-Agent-03.png)
 
 - Run the agent installation manually.
+{% highlight yaml %}
 
-      PS C:\agent> .\config.cmd
-      Connect:
-      Enter server URL > https://dermot-singlepane.visualstudio.com/
-      Enter authentication type (press enter for PAT) >
-      Enter personal access token > 
-      Connecting to server ...
-      >> Register Agent:
-      Enter agent pool (press enter for default) > Azure-Hosted-Agents
-      Enter agent name (press enter for vstsagentvm1) >
-      Scanning for tool capabilities.
-      Connecting to the server.
-      Successfully added the agent
-      Testing agent connection.
-      Enter work folder (press enter for _work) >
-      2018-07-31 11:24:44Z: Settings Saved.
-      Enter run agent as service? (Y/N) (press enter for N) > Y
-      Enter User account to use for the service (press enter for NT AUTHORITY\NETWORK SERVICE) >
-
+PS C:\agent> .\config.cmd
+Connect:
+Enter server URL > https://dermot-singlepane.visualstudio.com/
+Enter authentication type (press enter for PAT) >
+Enter personal access token > 
+Connecting to server ...
+>> Register Agent:
+Enter agent pool (press enter for default) > Azure-Hosted-Agents
+Enter agent name (press enter for vstsagentvm1) >
+Scanning for tool capabilities.
+Connecting to the server.
+Successfully added the agent
+Testing agent connection.
+Enter work folder (press enter for _work) >
+2018-07-31 11:24:44Z: Settings Saved.
+Enter run agent as service? (Y/N) (press enter for N) > Y
+Enter User account to use for the service (press enter for NT AUTHORITY\NETWORK SERVICE) >
+{% endhighlight %}
 ![](/images/New-Windows-Build-Agent-04.png)
 
 - We can now return to our build definition and select this agent pool

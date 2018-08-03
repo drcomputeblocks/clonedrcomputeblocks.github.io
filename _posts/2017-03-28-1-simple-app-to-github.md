@@ -2,6 +2,8 @@
 layout: post
 title: "Azure DevOps: #1 Publish A Very Basic App To GitHub"
 date: 2017-03-28
+category: CI/CD
+
 ---
 
 The purpose of this series is to walk through how to create a CI/CD pipeline using:

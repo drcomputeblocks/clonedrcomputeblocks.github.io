@@ -2,6 +2,8 @@
 layout: post
 title: "Azure DevOps: #8 Terraform deployment via VSTS."
 date: 2017-05-03
+category: terraform
+
 ---
 
 When we run terraform from VSTS we need to ensure that we maintain the state file - and its backup - in a central location.

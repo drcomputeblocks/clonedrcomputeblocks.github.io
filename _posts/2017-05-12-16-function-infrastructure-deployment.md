@@ -2,6 +2,8 @@
 layout: post
 title: "Azure DevOps: #15 Putting it together Function Infrastructure Deployment"
 date: 2017-05-28
+category: terraform
+
 ---
 The first thing that we need to do is to state where we are going to persist our state.
 
