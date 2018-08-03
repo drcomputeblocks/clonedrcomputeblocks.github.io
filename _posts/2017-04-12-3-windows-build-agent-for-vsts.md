@@ -30,9 +30,9 @@ PS C:\agent> .\config.cmd
 Connect:
 Enter server URL > https://dermot-singlepane.visualstudio.com/
 Enter authentication type (press enter for PAT) >
-Enter personal access token > 
+Enter personal access token >
 Connecting to server ...
->> Register Agent:
+Register Agent:
 Enter agent pool (press enter for default) > Azure-Hosted-Agents
 Enter agent name (press enter for vstsagentvm1) >
 Scanning for tool capabilities.
@@ -44,6 +44,7 @@ Enter work folder (press enter for _work) >
 Enter run agent as service? (Y/N) (press enter for N) > Y
 Enter User account to use for the service (press enter for NT AUTHORITY\NETWORK SERVICE) >
 {% endhighlight %}
+
 ![](/images/New-Windows-Build-Agent-04.png)
 
 - We can now return to our build definition and select this agent pool

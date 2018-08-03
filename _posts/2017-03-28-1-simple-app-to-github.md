@@ -1,19 +1,19 @@
 ---
 layout: post
-title: "Azure DevOps: #1 Publish A Very Basic App To GitHub"
+title: "Getting Started: Creating and publishing a very basic .NET app To GitHub"
 date: 2017-03-28
-category: CI/CD
+category: Getting Started
+featured: true
 
 ---
 
-The purpose of this series is to walk through how to create a CI/CD pipeline using:
-- Visual Studio
-- Visual Studio Team Services
-- Azure
-- Terraform
+The intention of this article is to walk you through creating a very simple application using Visual Studio and deploying it to GitHub.
 
-This article covers off installing software, creating accounts and uploading a very basic app to GitHub.
-We will build on this in later articles.
+This GitHub repository will be used for setting up our CI/CD pipline later.
+
+It is also to highlight how easy it is to create small applications using Visual Studio.
+
+In order to work with Azure you will need the software and accounts below.  I will be using these extensively.
 
 ## Install software and create accounts
 
