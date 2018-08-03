@@ -35,10 +35,28 @@ Before we get started you need to install some software and create some accounts
 
 As a consistent naming convention we are going to call:
 
-| Element | Name |
-| ------ | ----------- |
-| Resource Group   |TestWebAppRG |
-| App Service   |TestWebApp0101 |
+<div class="row">
+    <div class="large-12 columns">
+        <table>
+  <thead>
+    <tr>
+      <th width="200">Element</th>
+      <th>Name</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Resource Group</td>
+      <td>TestWebAppRG</td>
+    </tr>
+    <tr>
+      <td>App Service</td>
+      <td>TestWebApp0101</td>
+    </tr>
+  </tbody>
+</table>
+    </div>
+</div>
 
 ## Create a GitHub Repository
 
