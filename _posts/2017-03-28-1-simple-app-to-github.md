@@ -4,6 +4,7 @@ title: "Getting Started: Creating and publishing a very basic .NET app To GitHub
 date: 2017-03-28
 category: Getting Started
 featured: true
+share: false
 
 ---
 
